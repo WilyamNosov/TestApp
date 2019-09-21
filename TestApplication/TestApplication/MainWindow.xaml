@@ -1,0 +1,17 @@
+﻿<Window x:Class="TestApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestApplication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="485" Width="410" FontSize="16" ResizeMode="NoResize">
+    <Grid>
+        <Button x:Name="AddGroupButton" Content="Add group" Margin="40,40,0,0" VerticalAlignment="Top" Padding="10,6" HorizontalAlignment="Left" Width="105" Click="AddGroupButton_Click"/>
+        <Button x:Name="AddControlButton" Content="Add control" HorizontalAlignment="Left" Margin="40,90,0,0" VerticalAlignment="Top" Padding="10,6" Width="105" Click="AddControlButton_Click"/>
+        <Button Content="Remove Group/Control" Margin="0,40,40,0" VerticalAlignment="Top" Padding="10,6" HorizontalAlignment="Right" Width="197" Click="Remove_Click"/>
+        <Button Content="Highlight" Margin="5,90,40,0" VerticalAlignment="Top" Padding="10,6" HorizontalAlignment="Right" Width="197" Click="Highlight_Click"/>
+        <TreeView x:Name="TreeViewElement" HorizontalAlignment="Left" Height="240" Margin="40,0,0,40.2" VerticalAlignment="Bottom" Width="323"/>
+
+    </Grid>
+</Window>
